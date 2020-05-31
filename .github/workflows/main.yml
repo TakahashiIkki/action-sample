@@ -14,4 +14,4 @@ jobs:
 
     - name: Debug
       run: |
-        echo "debug key = ${{ secrets.ACCESS_KEY }}"
+        echo "key = ${{ secrets.ACCESS_KEY }}"
